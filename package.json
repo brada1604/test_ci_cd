@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/brada1604/test_ci_cd#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "validator": "^10.8.0"
   }
 }

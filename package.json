@@ -1,29 +1,23 @@
 {
-  "name": "github-actions-ci-cd-nodejs",
-  "version": "0.0.1",
-  "description": "test for github-actions-runner",
+  "name": "test_ci_cd",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2pai/github-actions-ci-cd-nodejs.git"
+    "url": "git+https://github.com/brada1604/test_ci_cd.git"
   },
-  "author": "2pai",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/2pai/github-actions-ci-cd-nodejs/issues"
+    "url": "https://github.com/brada1604/test_ci_cd/issues"
   },
-  "homepage": "https://github.com/2pai/github-actions-ci-cd-nodejs#readme",
+  "homepage": "https://github.com/brada1604/test_ci_cd#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "http": "0.0.1-security"
-  },
-  "devDependencies": {
-    "jest": "^26.4.2",
-    "supertest": "^4.0.2"
+    "validator": "^10.8.0"
   }
 }

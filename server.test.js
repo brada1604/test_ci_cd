@@ -3,6 +3,12 @@ const supertest = require('supertest')
 const request = supertest(app)
 
 
+it('Call the /hello endpoint', async done => {
+    const res = await request.get('/hello')
+    expect(res.status).toBe(200)
+    expect(res.text).toBe('Hello, Indonesia!')
+    done()
+})
 it('Call the /youtube endpoint', async done => {
     const res = await request.get('/youtube')
     expect(res.status).toBe(200)

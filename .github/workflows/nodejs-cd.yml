@@ -26,7 +26,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: 22
           script: |
-            cd /home/ubuntu/apps/CICD-NodeJS
+            cd /home/proyek3AB/apps/test_ci_cd
             git pull origin master
             git status
             npm install --only=prod

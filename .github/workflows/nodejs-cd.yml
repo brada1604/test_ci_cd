@@ -30,4 +30,4 @@ jobs:
             git pull origin master
             git status
             npm install --only=prod
-            pm2 restart CICDApps
+            pm2 restart test_ci_cd
